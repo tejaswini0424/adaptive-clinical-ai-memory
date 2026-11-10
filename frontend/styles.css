@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+html, body, [class*="css"] {font-family: Inter, sans-serif;}
+.stApp {background:#f4f8fc;color:#142c48;}
+[data-testid="stSidebar"] {background:#102b47;}
+[data-testid="stSidebar"] * {color:#e7f5ff;}
+h1,h2,h3 {color:#113653;letter-spacing:-.025em;}
+[data-testid="stMetric"] {background:white;border:1px solid #dce8ef;border-top:4px solid #089f98;border-radius:14px;padding:22px;margin-bottom:18px;box-shadow:0 4px 18px #17385408;}
+.stButton button[kind="primary"], .stFormSubmitButton button[kind="primary"] {background:#087f86;border:0;border-radius:8px;}
+[data-testid="stExpander"] {background:white;border-radius:12px;border:1px solid #dce8ef;}
+.block-container {padding-top:2rem;max-width:1500px;}

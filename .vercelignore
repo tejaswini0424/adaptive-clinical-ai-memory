@@ -1,0 +1,12 @@
+.git
+.venv
+__pycache__
+.pytest_cache
+database
+reports
+tests
+app.py
+frontend
+requirements-semantic.txt
+requirements-postgres.txt
+.env*

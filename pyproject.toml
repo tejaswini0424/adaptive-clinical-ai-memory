@@ -1,0 +1,15 @@
+[project]
+name = "clinical-memory-platform"
+version = "1.0.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "SQLAlchemy>=2.0,<3",
+  "python-multipart>=0.0.18",
+  "scikit-learn>=1.6,<2",
+  "pypdf>=5,<8",
+  "psycopg[binary]>=3.2,<4",
+]
+
+[project.scripts]
+app = "index:app"

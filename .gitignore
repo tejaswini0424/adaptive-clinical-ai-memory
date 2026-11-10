@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.db
+*.db-*
+.env
+.vercel/
+reports/*.csv
+
+.vercel
+.env*
+!.env.example
+reports/*.log
+reports/test-results.txt
